@@ -1,0 +1,30 @@
+name: Superintegration
+main: com.xiaozhi.superintegration.Superintegration
+version: 1.8.8
+author: xiaozhi_z
+
+commands:
+  servershout:
+    description: 跨服喊话的指令 小志制作中.....
+  kick:
+    description: 踢人的指令 小志制作中.....
+  ping:
+    description: 查询ping的指令 小志制作中.....
+  skull:
+    description: 获取玩家头颅的指令 小志制作中....
+  level:
+    description: 获取玩家等级的指令 小志制作中.....
+  GPS:
+    description: 获取玩家位置的指令 小志制作中.....
+  Detectionmode:
+    description: 获取玩家目前模式的指令 小志制作中.....
+  manipulation:
+permissions:
+  plugin.*:
+    description: Plugin Jurisdiction
+    children:
+      Superintegration.Commands.kick: true
+  Superintegration.Commands.kick:
+    description: 踢人的指令 小志制作中.....
+    default: op
+

@@ -1,0 +1,13 @@
+#玩家进入游戏时的欢迎语
+JoinMessage: "&bWelcome &d%player_name%&e Joined the game"
+
+#屏蔽词设置
+enable: true
+Shieldingwords:
+  - 'fuck'
+  - 'sb'
+
+#自动发送消息
+Message-list:
+  - 'xiaozhi_z presents'
+Message-time: 30
